@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400" role="img" aria-label="Platzhalter Portrait Prof. Dr. Frank Martin">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#eef5ff"/><stop offset="1" stop-color="#c8d8ee"/></linearGradient></defs>
+  <rect width="1200" height="1400" rx="48" fill="url(#g)"/>
+  <circle cx="600" cy="470" r="210" fill="#003087" opacity=".18"/><path d="M270 1160c52-236 210-352 330-352s278 116 330 352" fill="#003087" opacity=".18"/>
+  <text x="120" y="1090" fill="#003087" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">Prof. Dr. Frank Martin</text>
+  <text x="120" y="1156" fill="#627087" font-family="Inter, Arial, sans-serif" font-size="28">Portrait-Platzhalter</text>
+</svg>
