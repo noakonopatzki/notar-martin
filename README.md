@@ -19,7 +19,7 @@ Modern multi-page static website for Kanzlei Rechtsanwalt und Notar Prof. Dr. Fr
 ## Replace Placeholders
 
 1. The homepage hero now uses `assets/video/frank-video.mp4`. Replace that file if a newer background video is provided.
-2. The visible wordmark is stored as `assets/img/fm_design2_196.png`, the favicon uses `assets/img/fm_white_icon_871.png`, and the Frank portrait is stored as `assets/img/frank-martin.png`. Remaining SVG files are fallback placeholders and can be removed once final imagery is complete.
+2. The visible wordmark is stored as `assets/img/fm_design2_196.png`, the company-blue favicon uses `assets/img/fm_blue_icon.png`, and the Frank portrait is stored as `assets/img/frank-martin.png`. Remaining SVG files are fallback placeholders and can be removed once final imagery is complete.
 3. Replace `https://outlook.office.com/book/REPLACE-ME` with the Microsoft Bookings URL.
 4. Replace `G-XXXXXXXXXX` with the Google Analytics ID.
 5. Replace `GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE` with the Search Console verification token.
