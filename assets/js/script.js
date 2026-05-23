@@ -116,3 +116,14 @@ document.querySelectorAll('.card,.service-card,.split,.cta,.contact-card,.contac
   observer?.observe(el);
   if (!observer) el.classList.add('visible');
 });
+
+document.querySelectorAll('[data-jump-service]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const label = button.dataset.jumpService.toLowerCase();
+    const match = [...document.querySelectorAll('[data-service-card]')]
+      .find((card) => card.dataset.title.toLowerCase().includes(label));
+    match?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    match?.classList.add('pulse-focus');
+    window.setTimeout(() => match?.classList.remove('pulse-focus'), 900);
+  });
+});
